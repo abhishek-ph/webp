@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Abhishek PH</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Abhishek PH">
+    <meta name="description" content="Personal webpage of Abhishek PH">
+    <link rel="stylesheet" href="am.css"> 
+</head>
+<body>
+
+    <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank" class="instagram-link">
+        <img src="IMG20240804180312.jpg" alt="Abhishek PH" id="profile-pic">
+    </a>
+
+    <section>
+        <h2>About Abhishek PH</h2>
+        <p>My name is Abhishek PH. Here are some of my strengths and weaknesses:</p>
+        <ul>
+            <li>Hard working</li>
+            <li>Determined</li>
+            <li>Humble</li>
+            <li>Stage Fear</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>My Bucket List</h2>
+        <table>
+            <tr>
+                <th>Serial Number</th>
+                <th>Items</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Building a Better Physique</td>
+                <td>Not Completed</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Visit Goa</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Visit Kashmir</td>
+                <td>Not Completed</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Favorite Media</h2>
+    
+        <h3>Favorite Movie</h3>
+        <p class="media-title">Sisu</p> <!-- Adding a paragraph for movie title -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d2k4QAItiSA" 
+                title="Sisu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    
+        <h3>Favorite Song</h3>
+        <p class="media-title">Night Changes</p> <!-- Adding a paragraph for song title -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7KPyunRIjr0" 
+                title="Night Changes" frameborder="0" allow="accelerometer; autoplay; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </section>
+    
+
+    <section>
+        <h2>Interact with Me</h2>
+        <button onclick="alert('Hello, welcome to my page!')">Click Me</button>
+    </section>
+    
+    <script>
+        
+        document.getElementById('profile-pic').addEventListener('mouseover', function() {
+            document.body.style.backgroundColor = '#dcdcdc';
+        });
+
+        document.getElementById('profile-pic').addEventListener('mouseout', function() {
+            document.body.style.backgroundColor = '#f0f0f0';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f8ff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333; 
+}
+
+#profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    float: right;
+    margin: 20px;
+    border: 3px solid #555; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.instagram-link {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.instagram-link:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2); 
+}
+
+h2 {
+    color: #222; 
+    clear: both;
+    margin-top: 40px;
+    font-size: 1.8em; 
+}
+
+p, ul {
+    margin: 20px 40px;
+    padding: 10px;
+    color: #444; 
+    font-size: 1.1em; 
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.1em; 
+}
+
+th, td {
+    border: 2px solid #444; 
+    padding: 12px; 
+    text-align: left;
+    background-color: #f9f9f9; 
+
+th {
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+}
+}
